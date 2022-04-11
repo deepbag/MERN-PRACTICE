@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff8dc;
+  }
+  .container-content{
+    /* background-color: #fff8dc; */
+    /* height: fit-content; */
+    padding: 20px;
+    /* height: 80Vh; */
+  }
+  

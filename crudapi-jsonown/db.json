@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "DEEP BAG",
+      "username": "er.deepbag",
+      "email": "deepbag92@gmail.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "username": "random1",
+      "name": "RANDOM 1",
+      "email": "random1@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "random2",
+      "name": "RANDOM 2",
+      "email": "random2@gmail.com"
+    },
+    {
+      "id": 4,
+      "username": "random3",
+      "name": "RANDOM 3",
+      "email": "random3@gmail.com"
+    },
+    {
+      "name": "RANDOM 4",
+      "username": "random4",
+      "email": "random4@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "RANDOM 5",
+      "username": "random4",
+      "email": "random4@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "RANDOM 6",
+      "username": "random6",
+      "email": "random6@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "RANDOM 7",
+      "username": "random6",
+      "email": "random6@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "RANDOM 8",
+      "username": "random8",
+      "email": "random8@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "RANDOM 9",
+      "username": "random9",
+      "email": "random9@gmail.com",
+      "id": 11
+    }
+  ]
+}

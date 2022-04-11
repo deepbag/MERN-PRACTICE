@@ -1,0 +1,27 @@
+.container-add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-add form input{
+    display: block;
+    justify-content: center;
+    padding: 8px;
+    margin: 10px 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container-add form input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+.container-add form input:focus{
+    outline: none;
+}
+.container-add form button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    background-color: rgb(255, 241, 45);
+    padding: 6px 28px 6px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
