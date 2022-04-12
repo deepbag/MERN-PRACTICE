@@ -1,0 +1,8 @@
+.container{
+  width: 100%;
+}
+.container-content{
+  background-color: #fff8dc;
+  height: fit-content;
+  padding: 20px;
+}

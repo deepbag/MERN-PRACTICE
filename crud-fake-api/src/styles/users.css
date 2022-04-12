@@ -1,0 +1,45 @@
+.container-users{
+    width: 100%;
+    height: fit-content;
+}
+table {
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: azure;
+    color:#551a8b;
+  }
+  td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+td button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    background-color: rgb(255, 241, 45);
+    padding: 6px 28px 6px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-navlink{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    background-color: rgb(255, 241, 45);
+    padding: 6px 28px 6px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 13px;
+    border: 2px solid #767676;
+    text-align: center;
+}
