@@ -2,7 +2,7 @@ import Reducer from "./reducer";
 import { combineReducers } from "redux";
 
 const rootReducer = combineReducers({
-    reducer:Reducer
+    Reducer,
 })
 
 export default rootReducer;
