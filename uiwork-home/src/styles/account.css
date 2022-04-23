@@ -1,0 +1,97 @@
+.container-account{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 60px 0;
+}
+.container-account-content img{
+    display: block;
+    margin: 50px auto 30px auto;
+}
+.container-account-content .facebook-btn,
+.container-account-content .google-btn{
+    display: block;
+}
+.container-account-content .facebook-btn{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    background-color: #5296cd;
+    border-radius: 5px;
+    padding: 8px 15px 10px 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    word-spacing: 2px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+.container-account-content .google-btn{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    background-color: #fcaca5;
+    border-radius: 5px;
+    padding: 8px 24px 10px 24px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    word-spacing: 2px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+.container-account-content form{
+    margin-top: 20px;
+}
+.container-account-content input{
+    display: block;
+    width: 87%;
+    /* height: 30px; */
+    padding: 8px 15px 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    border-color: rgb(245, 245, 245);
+}
+.container-account-content input::placeholder{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    /* background-color: rgb(245, 245, 245); */
+}
+.container-account-content input:focus{
+    outline: none;
+}
+.account-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.account-btn button{
+    box-shadow: 0px 0px 15px 11px rgba(245,245,245,1);
+    padding: 13px 37px 13px 37px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2e2e2ec0;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    cursor: pointer;
+}
+
+.container-account-content p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #8b8b8b;
+    line-height: 28px;
+    word-spacing: 2px;
+    margin: 10px 0 10px 0;
+}
+.navlink-account{
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+}

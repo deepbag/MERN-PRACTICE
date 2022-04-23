@@ -1,0 +1,39 @@
+.container-mainpage{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 60px 0;
+}
+.container-content img{
+    display: block;
+    margin: 50px auto 30px auto;
+}
+.container-content h3{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #000000b9;
+    line-height: 40px;
+    margin: 10px 0 10px 0;
+}
+.container-content p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #8b8b8b;
+    line-height: 28px;
+    word-spacing: 2px;
+    margin: 10px 0 10px 0;
+}
+.navlink-mainpage{
+    box-shadow: 0px 0px 15px 11px rgba(245,245,245,1);
+    padding: 20px 35px 20px 35px;
+    display: block;
+    text-align: center;
+    margin: 30px 200px 30px 200px;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2e2e2ec0;
+    font-weight: 700;
+}

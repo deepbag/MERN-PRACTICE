@@ -1,0 +1,17 @@
+.container-footer{
+    background-color: #fbfaf7;
+    padding-bottom: 20px;
+}
+.container-footer p{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.801);
+    margin: 5px 0 5px 0;
+}
+.navlink-footer{
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 14px;
+}
