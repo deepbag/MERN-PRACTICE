@@ -12,10 +12,8 @@ const Routing = () => {
     <>
         <div className='container-routing'>
           {
-            location.pathname === '/' ? <Header /> : <DashboardHeader />
+            location.pathname !== '/dashboard' ? <Header /> : <DashboardHeader />
           }
-          {
-            location.pathname === '/' ? (
               <div className='container-route-mainpage'>
                 <Routes>
                   <Route path='/' exact element={<MainPage />} />
@@ -23,19 +21,9 @@ const Routing = () => {
                   <Route path='/dashboard' exact element={<Dashboard />} />
                 </Routes>
               </div>
-            ) : (
-              <div className='container-route-dashboard'>
-                <Routes>
-                  <Route path='/dashboard' exact element={<Dashboard />} />
-                  <Route path='/account' exact element={<Account />} />
-                </Routes>
-              </div>
-            )
-          }
           {
-            location.pathname === '/' ? <Footer /> : null
+            location.pathname !== '/dashboard' ? <Footer /> : null
           }
-
         </div>
     </>
   )
