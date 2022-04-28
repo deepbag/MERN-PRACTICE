@@ -5,7 +5,7 @@ Learning mern technology to introduce myself as a mern software developer in the
 https://tictactoegamejs.netlify.app/
 
 #### MCQ
-https://mcqjavascipt.netlify.app/
+https://mcqjavascript.netlify.app/
 
 #### Magic Javascipt
 https://magicjavascript.netlify.app/
