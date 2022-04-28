@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MCQ</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <h2>Multiple Choice Questions!</h2>
+            <div class="questions">
+
+                <p>1. Select ReactJs Framework:</p>
+                  <input type="radio" name="RECTJS" value="html" onchange="handleChangeReact(this)">HTML
+                  <input type="radio" name="RECTJS" value="reactjs" onchange="handleChangeReact(this)">ReactJs
+                  <input type="radio" name="RECTJS" value="javascript" onchange="handleChangeReact(this)">JavaScript
+                  <input type="radio" name="RECTJS" value="angular" onchange="handleChangeReact(this)">Angular
+
+                <p>2. Select MangoDB Database:</p>
+                  <input type="radio" name="MANGODB" value="sql" onchange="handleChangeMangoDB(this)">SQL
+                  <input type="radio" name="MANGODB" value="postgresql" onchange="handleChangeMangoDB(this)">PostgreSQL
+                  <input type="radio" name="MANGODB" value="mangodb" onchange="handleChangeMangoDB(this)">MangoDB
+                  <input type="radio" name="MANGODB" value="awsdb" onchange="handleChangeMangoDB(this)">AWSDB
+
+                <p>3. Select HP Laptop:</p>
+                  <input type="radio" name="HP" value="hp" onchange="handleChangeHP(this)">HP
+                  <input type="radio" name="HP" value="lenovo" onchange="handleChangeHP(this)">Lenovo
+                  <input type="radio" name="HP" value="acer" onchange="handleChangeHP(this)">Acer
+                  <input type="radio" name="HP" value="asus" onchange="handleChangeHP(this)">ASUS
+
+                <p>4. Select MacBook Laptop:</p>
+                  <input type="radio" name="MACBOOK" value="macbook" onchange="handleChangeMacBook(this)">Macbook
+                  <input type="radio" name="MACBOOK" value="realmebook" onchange="handleChangeMacBook(this)">Realme Book
+                  <input type="radio" name="MACBOOK" value="redmibook" onchange="handleChangeMacBook(this)">Redmi Book
+                  <input type="radio" name="MACBOOK" value="samsung" onchange="handleChangeMacBook(this)">Samsung
+
+                <p>5. Select Computer:</p>
+                  <input type="radio" name="COMPUTER" value="laptop" onchange="handleChangeComputer(this)">Laptop
+                  <input type="radio" name="COMPUTER" value="lcdtv" onchange="handleChangeComputer(this)">LCD TV
+                  <input type="radio" name="COMPUTER" value="computer" onchange="handleChangeComputer(this)">Computer
+                  <input type="radio" name="COMPUTER" value="camera" onchange="handleChangeComputer(this)">Camera
+
+            </div>
+            <button class="button-submit" onclick="getResult()">SUBMIT</button>
+        </div>
+
+        <div class="container-result">
+            <h2>Result</h2>
+            <h3 class="passing-marks">Passing Marks Is 40!</h3>
+            <h3 class="result-Number">_____</h3>
+            <h3 class="result-passorfail">PASS | FAIL</h3>
+            
+            <h4 class="wrong-answers-heading">WRONG ANSWERS</h4>
+            <h5 class="wrong-answers"></h5>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
