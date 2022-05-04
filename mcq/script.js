@@ -93,7 +93,7 @@ function getResult(){
     resultNumber.innerHTML = COUNT + ' OUT OF 50';
     checkPassOrFail();
     console.log(WRONG_ANSWER)
-    if(!WRONG_ANSWER){
+    if(WRONG_ANSWER){
         resultWrongAnswer.innerHTML = WRONG_ANSWER.join('<br>').toLocaleUpperCase();
     }else{
         resultWrongAnswer.innerHTML = ' NO WRONG ANSWERS';
